@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/socket/socket.iml" filepath="$PROJECT_DIR$/socket/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userSetting.iml" filepath="$PROJECT_DIR$/userSetting.iml" />
+    </modules>
+  </component>
+</project>
+
