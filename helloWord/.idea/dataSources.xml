@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3136763391">
+    <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="c2075bec-9413-483c-a4b5-193c0cf36843">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/wksql</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfcbdfc4dfcddfd2dfdf</user-password>
+      <libraries>
+        <library>
+          <url>file://E:\大四下期\毕设1\毕设服务器\helloWord\out\artifacts\helloWord_war_exploded\WEB-INF\lib\slf4j-jcl-1.7.5.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

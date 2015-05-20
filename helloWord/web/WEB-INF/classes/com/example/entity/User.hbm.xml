@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.example.entity.User" table="user" catalog="wksql1">
+        <id name = "userId" type="java.lang.Integer">
+            <column name="user_id"/>
+            <generator class="increment"/>
+        </id>
+
+        <property name="name" type="java.lang.String">
+            <column name="name" not-null="true"/>
+        </property>
+
+        <property name="password" type="java.lang.String">
+            <column name="password" not-null="true"/>
+        </property>
+
+        <property name="money" type = "java.lang.Integer">
+            <column name="money" />
+        </property>
+
+        <property name="achievementPoint" type="java.lang.Integer">
+            <column name="achievement_point" >
+            </column>
+        </property>
+        <!--<set name="taskManage" inverse="true">
+            <key>
+                <column name="user_id" not-null="true" />
+            </key>
+            <one-to-many class="com.example.entity.TaskManage" />
+        </set>
+
+        <set name="taskDetail" inverse="true">
+            <key>
+                <column name="taskId" not-null="true"/>
+            </key>
+            <one-to-many class="com.example.entity.TaskDetail"/>
+        </set>-->
+
+    </class>
+    </hibernate-mapping>

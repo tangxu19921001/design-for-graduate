@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.example.entity.TaskManage" table="task_manage" catalog="wksql1">
+        <id name = "taskManageId" type="java.lang.Integer">
+            <column name="task_manage_id"/>
+            <generator class="increment"/>
+        </id>
+
+      <property name="taskId" type="java.lang.Integer">
+          <column name="task_id"></column>
+      </property>
+        <property name="userId" type="java.lang.Integer">
+            <column name="user_id"></column>
+        </property>
+      <!--  <id name = "taskId" type="java.lang.Integer">
+            <column name="task_id"/>
+            <generator class="identity"/>
+        </id>-->
+      <!-- <property name="userId" type="java.lang.Integer">
+           <column name="user_id"/>
+       </property>-->
+
+
+
+
+        <property name="receiverId" type="java.lang.Integer">
+
+            <column name="receiver_id">
+
+            </column>
+        </property>
+
+        <property name="evaluate" type="java.lang.String">
+            <column name="evaluate">
+            </column>
+        </property>
+
+        <many-to-one name="user" class="com.example.entity.User" fetch="select">
+            <column name="user" />
+        </many-to-one>
+    </class>
+    </hibernate-mapping>

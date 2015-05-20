@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="helloWord:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/helloWord_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="helloWord" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/antlr-2.7.6rc1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-cli-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-codec-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-collections-testframework-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-httpclient-3.1-rc1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-io-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-lang-2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-logging.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/commons-net-1.4.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/hibernate3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/javassist.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/json-lib-2.2-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/jta.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/jul-to-slf4j-1.7.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/mysql-connector-java-5.0.8-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/org.json.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/slf4j-api-1.7.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/slf4j-ext-1.7.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/slf4j-jcl-1.7.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/slf4j-jdk14-1.7.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/slf4j-log4j12-1.7.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/slf4j-migrator-1.7.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/slf4j-nop-1.7.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/libs/slf4j-simple-1.7.5.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="helloWord/web/Web" />
+      <element id="javaee-facet-resources" facet="helloWord/web/Web2" />
+      <element id="javaee-facet-resources" facet="helloWord/web/Web3" />
+    </root>
+  </artifact>
+</component>

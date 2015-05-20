@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/out/artifacts/helloWord_war_exploded/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/out/artifacts/helloWord_war_exploded" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="c2075bec-9413-483c-a4b5-193c0cf36843" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/out/artifacts/helloWord_war_exploded/WEB-INF/classes/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/web/WEB-INF/classes/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/web/WEB-INF/classes" />
+    <output-test url="file://$MODULE_DIR$/web/WEB-INF/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/antlr-2.7.6rc1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-cli-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-codec-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-collections-3.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-collections-testframework-3.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-httpclient-3.1-rc1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-io-1.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-lang-2.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-logging.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-net-1.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/dom4j-1.6.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/hibernate3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/javassist.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/json-lib-2.2-jdk15.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/jta.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/jul-to-slf4j-1.7.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/mysql-connector-java-5.0.8-bin.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/org.json.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-api-1.7.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-ext-1.7.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-jcl-1.7.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-jdk14-1.7.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-log4j12-1.7.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-migrator-1.7.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-nop-1.7.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-simple-1.7.5.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-collections-3.2.1-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/commons-collections-3.2.1-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/jul-to-slf4j-1.7.5-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/org.json.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-api-1.7.5-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-ext-1.7.5-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-jcl-1.7.5-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-jdk14-1.7.5-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-log4j12-1.7.5-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-nop-1.7.5-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/libs/slf4j-simple-1.7.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 7.0.29" level="application_server_libraries" />
+  </component>
+</module>
+
